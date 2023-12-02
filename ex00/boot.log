@@ -1,0 +1,510 @@
+Nov 30 16:21:01 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 30 16:21:01 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 30 16:21:01 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 30 16:21:01 +00:00 (none)  Setting hostname to jodevri... OK
+Nov 30 16:21:01 +00:00 jodevri  Populating /dev with device nodes...  OK
+Nov 30 16:20:56 +00:00 jodevri  Activating all swap files/partitions... OK
+Nov 30 16:20:56 +00:00 jodevri  Mounting root file system in read-only mode...  OK
+Nov 30 16:20:56 +00:00 jodevri  Checking file systems...Nov 30 16:20:56 +00:00 jodevri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Nov 30 16:20:56 +00:00 jodevri  Remounting root file system in read-write mode... OK
+Nov 30 16:20:56 +00:00 jodevri  Mounting remaining file systems... OK
+Nov 30 16:20:56 +00:00 jodevri  Cleaning file systems: /tmp OK
+Nov 30 16:20:56 +00:00 jodevri  Retrying failed uevents, if any... OK
+Nov 30 16:20:57 +00:00 jodevri  Setting up Linux console... OK
+Nov 30 16:20:57 +00:00 jodevri  Starting system log daemon... OK
+Nov 30 16:20:57 +00:00 jodevri  Starting kernel log daemon... OK
+Nov 30 16:20:57 +00:00 jodevri  Bringing up the eth0 interface... OK
+Nov 30 16:20:57 +00:00 jodevri  Adding IPv4 address 192.168.1.2 to the eth0 interface... OK
+Nov 30 16:20:57 +00:00 jodevri  Adding default gateway 192.168.1.1 to the eth0 interface... OK
+--------
+Nov 30 16:38:18 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 30 16:38:18 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 30 16:38:18 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 30 16:38:18 +00:00 (none)  Setting hostname to jode-vri... OK
+Nov 30 16:38:18 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Nov 30 16:38:11 +00:00 jode-vri  Activating all swap files/partitions... OK
+Nov 30 16:38:11 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Nov 30 16:38:11 +00:00 jode-vri  Checking file systems...Nov 30 16:38:11 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Nov 30 16:38:11 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Nov 30 16:38:11 +00:00 jode-vri  Mounting remaining file systems... OK
+Nov 30 16:38:11 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Nov 30 16:38:11 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Nov 30 16:38:12 +00:00 jode-vri  Setting up Linux console... OK
+Nov 30 16:38:12 +00:00 jode-vri  Starting system log daemon... OK
+Nov 30 16:38:12 +00:00 jode-vri  Starting kernel log daemon... OK
+Nov 30 16:38:12 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Nov 30 16:38:12 +00:00 jode-vri  Adding IPv4 address 192.168.1.2 to the eth0 interface... OK
+Nov 30 16:38:12 +00:00 jode-vri  Adding default gateway 192.168.1.1 to the eth0 interface... OK
+--------
+Nov 30 17:06:56 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 30 17:06:56 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 30 17:06:56 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 30 17:06:56 +00:00 (none)  Setting hostname to jode-vri... OK
+Nov 30 17:06:56 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Nov 30 17:06:50 +00:00 jode-vri  Activating all swap files/partitions... OK
+Nov 30 17:06:50 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Nov 30 17:06:50 +00:00 jode-vri  Checking file systems...Nov 30 17:06:50 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Nov 30 17:06:50 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Nov 30 17:06:50 +00:00 jode-vri  Mounting remaining file systems... OK
+Nov 30 17:06:50 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Nov 30 17:06:50 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Nov 30 17:06:51 +00:00 jode-vri  Setting up Linux console... OK
+Nov 30 17:06:51 +00:00 jode-vri  Starting system log daemon... OK
+Nov 30 17:06:51 +00:00 jode-vri  Starting kernel log daemon... OK
+Nov 30 17:06:51 +00:00 jode-vri  Bringing up the enp0s3 interface...Nov 30 17:06:51 +00:00 jode-vri  Interface enp0s3 doesn't exist. FAIL
+Nov 30 17:06:51 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Nov 30 17:06:51 +00:00 jode-vri  Adding IPv4 address 192.168.1.2 to the eth0 interface... OK
+Nov 30 17:06:51 +00:00 jode-vri  Adding default gateway 192.168.1.1 to the eth0 interface... OK
+--------
+Nov 30 17:22:04 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 30 17:22:04 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 30 17:22:04 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 30 17:22:04 +00:00 (none)  Setting hostname to jode-vri... OK
+Nov 30 17:22:04 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Nov 30 17:14:20 +00:00 jode-vri  Activating all swap files/partitions... OK
+Nov 30 17:14:20 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Nov 30 17:14:20 +00:00 jode-vri  Checking file systems... OK
+Nov 30 17:14:20 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Nov 30 17:14:20 +00:00 jode-vri  Mounting remaining file systems... OK
+Nov 30 17:14:20 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Nov 30 17:14:20 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Nov 30 17:14:21 +00:00 jode-vri  Setting up Linux console... OK
+Nov 30 17:14:21 +00:00 jode-vri  Starting system log daemon... OK
+Nov 30 17:14:21 +00:00 jode-vri  Starting kernel log daemon... OK
+Nov 30 17:14:21 +00:00 jode-vri  Bringing up the enp0s3 interface...Nov 30 17:14:21 +00:00 jode-vri  Interface enp0s3 doesn't exist. FAIL
+Nov 30 17:14:21 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Nov 30 17:14:21 +00:00 jode-vri  Adding IPv4 address 192.168.1.2 to the eth0 interface... OK
+Nov 30 17:14:21 +00:00 jode-vri  Adding default gateway 192.168.1.1 to the eth0 interface... OK
+--------
+Nov 30 17:28:01 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 30 17:28:01 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 30 17:28:01 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 30 17:28:01 +00:00 (none)  Setting hostname to jode-vri... OK
+Nov 30 17:28:01 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Nov 30 17:27:56 +00:00 jode-vri  Activating all swap files/partitions... OK
+Nov 30 17:27:56 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Nov 30 17:27:56 +00:00 jode-vri  Checking file systems...Nov 30 17:27:57 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Nov 30 17:27:57 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Nov 30 17:27:57 +00:00 jode-vri  Mounting remaining file systems... OK
+Nov 30 17:27:57 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Nov 30 17:27:57 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Nov 30 17:27:58 +00:00 jode-vri  Setting up Linux console... OK
+Nov 30 17:27:58 +00:00 jode-vri  Starting system log daemon... OK
+Nov 30 17:27:58 +00:00 jode-vri  Starting kernel log daemon... OK
+Nov 30 17:27:58 +00:00 jode-vri  Bringing up the enp0s3 interface...Nov 30 17:27:58 +00:00 jode-vri  Interface enp0s3 doesn't exist. FAIL
+Nov 30 17:27:58 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Nov 30 17:27:58 +00:00 jode-vri  Adding IPv4 address 192.168.1.2 to the eth0 interface... OK
+Nov 30 17:27:58 +00:00 jode-vri  Adding default gateway 192.168.1.1 to the eth0 interface... OK
+--------
+Nov 30 18:07:56 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 30 18:07:56 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 30 18:07:56 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 30 18:07:56 +00:00 (none)  Setting hostname to jode-vri... OK
+Nov 30 18:07:56 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Nov 30 18:07:51 +00:00 jode-vri  Activating all swap files/partitions... OK
+Nov 30 18:07:51 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Nov 30 18:07:51 +00:00 jode-vri  Checking file systems...Nov 30 18:07:51 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Nov 30 18:07:51 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Nov 30 18:07:51 +00:00 jode-vri  Mounting remaining file systems... OK
+Nov 30 18:07:51 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Nov 30 18:07:51 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Nov 30 18:07:53 +00:00 jode-vri  Setting up Linux console... OK
+Nov 30 18:07:53 +00:00 jode-vri  Starting system log daemon... OK
+Nov 30 18:07:53 +00:00 jode-vri  Starting kernel log daemon... OK
+Nov 30 18:07:53 +00:00 jode-vri  Bringing up the enp0s3 interface...Nov 30 18:07:53 +00:00 jode-vri  Interface enp0s3 doesn't exist. FAIL
+Nov 30 18:07:53 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Nov 30 18:07:53 +00:00 jode-vri  Adding IPv4 address 192.168.1.2 to the eth0 interface... OK
+Nov 30 18:07:53 +00:00 jode-vri  Adding default gateway 192.168.1.1 to the eth0 interface... OK
+--------
+Nov 30 18:13:02 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 30 18:13:02 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 30 18:13:02 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 30 18:13:02 +00:00 (none)  Setting hostname to jode-vri... OK
+Nov 30 18:13:02 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Nov 30 18:10:24 +00:00 jode-vri  Activating all swap files/partitions... OK
+Nov 30 18:10:24 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Nov 30 18:10:24 +00:00 jode-vri  Checking file systems... OK
+Nov 30 18:10:24 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Nov 30 18:10:24 +00:00 jode-vri  Mounting remaining file systems... OK
+Nov 30 18:10:24 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Nov 30 18:10:24 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Nov 30 18:10:25 +00:00 jode-vri  Setting up Linux console... OK
+Nov 30 18:10:25 +00:00 jode-vri  Starting system log daemon... OK
+Nov 30 18:10:25 +00:00 jode-vri  Starting kernel log daemon... OK
+Nov 30 18:10:25 +00:00 jode-vri  Bringing up the enp0s3 interface...Nov 30 18:10:25 +00:00 jode-vri  Interface enp0s3 doesn't exist. FAIL
+Nov 30 18:10:25 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Nov 30 18:10:25 +00:00 jode-vri  Adding IPv4 address 192.168.1.2 to the eth0 interface... OK
+Nov 30 18:10:25 +00:00 jode-vri  Adding default gateway 192.168.1.1 to the eth0 interface... OK
+--------
+Nov 30 18:58:55 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 30 18:58:55 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 30 18:58:55 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 30 18:58:55 +00:00 (none)  Setting hostname to jode-vri... OK
+Nov 30 18:58:55 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Nov 30 18:58:49 +00:00 jode-vri  Activating all swap files/partitions... OK
+Nov 30 18:58:49 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Nov 30 18:58:49 +00:00 jode-vri  Checking file systems...Nov 30 18:58:49 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Nov 30 18:58:49 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Nov 30 18:58:49 +00:00 jode-vri  Mounting remaining file systems... OK
+Nov 30 18:58:49 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Nov 30 18:58:49 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Nov 30 18:58:50 +00:00 jode-vri  Setting up Linux console... OK
+Nov 30 18:58:50 +00:00 jode-vri  Starting system log daemon... OK
+Nov 30 18:58:50 +00:00 jode-vri  Starting kernel log daemon... OK
+Nov 30 18:58:50 +00:00 jode-vri  Bringing up the enp0s3 interface...Nov 30 18:58:50 +00:00 jode-vri  Interface enp0s3 doesn't exist. FAIL
+Nov 30 18:58:50 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Nov 30 18:58:50 +00:00 jode-vri  Adding IPv4 address 192.168.1.2 to the eth0 interface... OK
+Nov 30 18:58:50 +00:00 jode-vri  Adding default gateway 192.168.1.1 to the eth0 interface... OK
+--------
+Nov 30 19:45:45 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 30 19:45:45 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 30 19:45:45 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 30 19:45:45 +00:00 (none)  Setting hostname to jode-vri... OK
+Nov 30 19:45:45 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Nov 30 19:45:41 +00:00 jode-vri  Activating all swap files/partitions... OK
+Nov 30 19:45:41 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Nov 30 19:45:41 +00:00 jode-vri  Checking file systems...Nov 30 19:45:41 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Nov 30 19:45:41 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Nov 30 19:45:42 +00:00 jode-vri  Mounting remaining file systems... OK
+Nov 30 19:45:42 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Nov 30 19:45:42 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Nov 30 19:45:43 +00:00 jode-vri  Setting up Linux console... OK
+Nov 30 19:45:43 +00:00 jode-vri  Starting system log daemon... OK
+Nov 30 19:45:43 +00:00 jode-vri  Starting kernel log daemon... OK
+Nov 30 19:45:43 +00:00 jode-vri  Bringing up the enp0s3 interface...Nov 30 19:45:43 +00:00 jode-vri  Interface enp0s3 doesn't exist. FAIL
+Nov 30 19:45:43 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Nov 30 19:45:43 +00:00 jode-vri  Starting dhcpcd on the eth0 interface... OK
+--------
+Nov 30 19:47:15 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Nov 30 19:47:15 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Nov 30 19:47:15 +00:00 (none)  Bringing up the loopback interface... OK
+Nov 30 19:47:15 +00:00 (none)  Setting hostname to jode-vri... OK
+Nov 30 19:47:15 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Nov 30 19:47:11 +00:00 jode-vri  Activating all swap files/partitions... OK
+Nov 30 19:47:11 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Nov 30 19:47:11 +00:00 jode-vri  Checking file systems...Nov 30 19:47:11 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Nov 30 19:47:11 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Nov 30 19:47:11 +00:00 jode-vri  Mounting remaining file systems... OK
+Nov 30 19:47:11 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Nov 30 19:47:11 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Nov 30 19:47:12 +00:00 jode-vri  Setting up Linux console... OK
+Nov 30 19:47:12 +00:00 jode-vri  Starting system log daemon... OK
+Nov 30 19:47:12 +00:00 jode-vri  Starting kernel log daemon... OK
+Nov 30 19:47:12 +00:00 jode-vri  Bringing up the enp0s3 interface...Nov 30 19:47:12 +00:00 jode-vri  Interface enp0s3 doesn't exist. FAIL
+Nov 30 19:47:12 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Nov 30 19:47:12 +00:00 jode-vri  Starting dhcpcd on the eth0 interface... OK
+--------
+Dec 01 09:50:59 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Dec 01 09:50:59 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Dec 01 09:50:59 +00:00 (none)  Bringing up the loopback interface... OK
+Dec 01 09:50:59 +00:00 (none)  Setting hostname to jode-vri... OK
+Dec 01 09:50:59 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Dec 01 09:50:54 +00:00 jode-vri  Activating all swap files/partitions... OK
+Dec 01 09:50:54 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Dec 01 09:50:54 +00:00 jode-vri  Checking file systems...Dec 01 09:50:55 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Dec 01 09:50:55 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Dec 01 09:50:55 +00:00 jode-vri  Mounting remaining file systems... OK
+Dec 01 09:50:55 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Dec 01 09:50:55 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Dec 01 09:50:56 +00:00 jode-vri  Setting up Linux console... OK
+Dec 01 09:50:56 +00:00 jode-vri  Starting system log daemon... OK
+Dec 01 09:50:56 +00:00 jode-vri  Starting kernel log daemon... OK
+Dec 01 09:50:56 +00:00 jode-vri  Bringing up the enp0s3 interface...Dec 01 09:50:56 +00:00 jode-vri  Interface enp0s3 doesn't exist. FAIL
+Dec 01 09:50:56 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Dec 01 09:50:56 +00:00 jode-vri  Starting dhcpcd on the eth0 interface... OK
+--------
+Dec 01 10:04:47 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Dec 01 10:04:47 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Dec 01 10:04:47 +00:00 (none)  Bringing up the loopback interface... OK
+Dec 01 10:04:47 +00:00 (none)  Setting hostname to jode-vri... OK
+Dec 01 10:04:47 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Dec 01 09:57:48 +00:00 jode-vri  Activating all swap files/partitions... OK
+Dec 01 09:57:48 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Dec 01 09:57:48 +00:00 jode-vri  Checking file systems... OK
+Dec 01 09:57:48 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Dec 01 09:57:48 +00:00 jode-vri  Mounting remaining file systems... OK
+Dec 01 09:57:48 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Dec 01 09:57:49 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Dec 01 09:57:50 +00:00 jode-vri  Setting up Linux console... OK
+Dec 01 09:57:50 +00:00 jode-vri  Starting system log daemon... OK
+Dec 01 09:57:50 +00:00 jode-vri  Starting kernel log daemon... OK
+Dec 01 09:57:50 +00:00 jode-vri  Bringing up the enp0s3 interface...Dec 01 09:57:50 +00:00 jode-vri  Interface enp0s3 doesn't exist. FAIL
+Dec 01 09:57:50 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Dec 01 09:57:50 +00:00 jode-vri  
+Unable to process /etc/sysconfig/ifconfig.eth0.  Either the SERVICE 'ipv4_forward was not present or cannot be executed. FAIL
+--------
+Dec 01 10:21:18 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Dec 01 10:21:18 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Dec 01 10:21:18 +00:00 (none)  Bringing up the loopback interface... OK
+Dec 01 10:21:18 +00:00 (none)  Setting hostname to jode-vri... OK
+Dec 01 10:21:18 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Dec 01 10:06:04 +00:00 jode-vri  Activating all swap files/partitions... OK
+Dec 01 10:06:04 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Dec 01 10:06:04 +00:00 jode-vri  Checking file systems... OK
+Dec 01 10:06:04 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Dec 01 10:06:04 +00:00 jode-vri  Mounting remaining file systems... OK
+Dec 01 10:06:04 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Dec 01 10:06:04 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Dec 01 10:06:05 +00:00 jode-vri  Setting up Linux console... OK
+Dec 01 10:06:05 +00:00 jode-vri  Starting system log daemon... OK
+Dec 01 10:06:05 +00:00 jode-vri  Starting kernel log daemon... OK
+Dec 01 10:06:05 +00:00 jode-vri  Bringing up the enp0s3 interface...Dec 01 10:06:05 +00:00 jode-vri  Interface enp0s3 doesn't exist. FAIL
+Dec 01 10:06:05 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Dec 01 10:06:05 +00:00 jode-vri  
+PREFIX variable missing from /etc/sysconfig/ifconfig.eth0, assuming 24. WARN
+Dec 01 10:06:05 +00:00 jode-vri  Adding IPv4 address static to the eth0 interface...FAIL
+Dec 01 10:06:05 +00:00 jode-vri  Adding default gateway 10.0.2.2 to the eth0 interface...FAIL
+--------
+Dec 01 10:21:22 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Dec 01 10:21:22 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Dec 01 10:21:22 +00:00 (none)  Bringing up the loopback interface... OK
+Dec 01 10:21:22 +00:00 (none)  Setting hostname to jode-vri... OK
+Dec 01 10:21:22 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Dec 01 10:21:17 +00:00 jode-vri  Activating all swap files/partitions... OK
+Dec 01 10:21:17 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Dec 01 10:21:17 +00:00 jode-vri  Checking file systems...Dec 01 10:21:17 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Dec 01 10:21:17 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Dec 01 10:21:17 +00:00 jode-vri  Mounting remaining file systems... OK
+Dec 01 10:21:17 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Dec 01 10:21:17 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Dec 01 10:21:18 +00:00 jode-vri  Setting up Linux console... OK
+Dec 01 10:21:18 +00:00 jode-vri  Starting system log daemon... OK
+Dec 01 10:21:18 +00:00 jode-vri  Starting kernel log daemon... OK
+Dec 01 10:21:18 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Dec 01 10:21:18 +00:00 jode-vri  Starting dhcpcd on the eth0 interface... OK
+--------
+Dec 01 11:21:40 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Dec 01 11:21:40 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Dec 01 11:21:40 +00:00 (none)  Bringing up the loopback interface... OK
+Dec 01 11:21:40 +00:00 (none)  Setting hostname to jode-vri... OK
+Dec 01 11:21:40 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Dec 01 10:51:24 +00:00 jode-vri  Activating all swap files/partitions... OK
+Dec 01 10:51:24 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Dec 01 10:51:24 +00:00 jode-vri  Checking file systems... OK
+Dec 01 10:51:24 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Dec 01 10:51:24 +00:00 jode-vri  Mounting remaining file systems... OK
+Dec 01 10:51:24 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Dec 01 10:51:24 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Dec 01 10:51:25 +00:00 jode-vri  Setting up Linux console... OK
+Dec 01 10:51:25 +00:00 jode-vri  Starting system log daemon... OK
+Dec 01 10:51:25 +00:00 jode-vri  Starting kernel log daemon... OK
+Dec 01 10:51:25 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Dec 01 10:51:25 +00:00 jode-vri  Starting dhcpcd on the eth0 interface... OK
+Dec 01 10:51:25 +00:00 jode-vri  Starting SSH Server... OK
+--------
+Dec 01 10:52:07 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Dec 01 10:52:07 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Dec 01 10:52:07 +00:00 (none)  Bringing up the loopback interface... OK
+Dec 01 10:52:07 +00:00 (none)  Setting hostname to jode-vri... OK
+Dec 01 10:52:07 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Dec 01 10:52:03 +00:00 jode-vri  Activating all swap files/partitions... OK
+Dec 01 10:52:03 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Dec 01 10:52:03 +00:00 jode-vri  Checking file systems...Dec 01 10:52:03 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Dec 01 10:52:03 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Dec 01 10:52:03 +00:00 jode-vri  Mounting remaining file systems... OK
+Dec 01 10:52:03 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Dec 01 10:52:03 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Dec 01 10:52:04 +00:00 jode-vri  Setting up Linux console... OK
+Dec 01 10:52:04 +00:00 jode-vri  Starting system log daemon... OK
+Dec 01 10:52:04 +00:00 jode-vri  Starting kernel log daemon... OK
+Dec 01 10:52:04 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Dec 01 10:52:04 +00:00 jode-vri  Starting dhcpcd on the eth0 interface... OK
+Dec 01 10:52:04 +00:00 jode-vri  Starting SSH Server... OK
+--------
+Dec 01 10:53:41 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Dec 01 10:53:41 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Dec 01 10:53:41 +00:00 (none)  Bringing up the loopback interface... OK
+Dec 01 10:53:41 +00:00 (none)  Setting hostname to jode-vri... OK
+Dec 01 10:53:41 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Dec 01 10:53:35 +00:00 jode-vri  Activating all swap files/partitions... OK
+Dec 01 10:53:35 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Dec 01 10:53:35 +00:00 jode-vri  Checking file systems...Dec 01 10:53:36 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Dec 01 10:53:36 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Dec 01 10:53:36 +00:00 jode-vri  Mounting remaining file systems... OK
+Dec 01 10:53:36 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Dec 01 10:53:36 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Dec 01 10:53:37 +00:00 jode-vri  Setting up Linux console... OK
+Dec 01 10:53:37 +00:00 jode-vri  Starting system log daemon... OK
+Dec 01 10:53:37 +00:00 jode-vri  Starting kernel log daemon... OK
+Dec 01 10:53:37 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Dec 01 10:53:37 +00:00 jode-vri  Starting dhcpcd on the eth0 interface... OK
+Dec 01 10:53:37 +00:00 jode-vri  Starting SSH Server... OK
+--------
+Dec 01 12:05:03 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Dec 01 12:05:03 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Dec 01 12:05:04 +00:00 (none)  Bringing up the loopback interface... OK
+Dec 01 12:05:04 +00:00 (none)  Setting hostname to jode-vri... OK
+Dec 01 12:05:04 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Dec 01 12:04:58 +00:00 jode-vri  Activating all swap files/partitions... OK
+Dec 01 12:04:58 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Dec 01 12:04:58 +00:00 jode-vri  Checking file systems...Dec 01 12:04:58 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Dec 01 12:04:58 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Dec 01 12:04:58 +00:00 jode-vri  Mounting remaining file systems... OK
+Dec 01 12:04:58 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Dec 01 12:04:58 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Dec 01 12:05:00 +00:00 jode-vri  Setting up Linux console... OK
+Dec 01 12:05:00 +00:00 jode-vri  Starting system log daemon... OK
+Dec 01 12:05:00 +00:00 jode-vri  Starting kernel log daemon... OK
+Dec 01 12:05:00 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Dec 01 12:05:00 +00:00 jode-vri  Starting dhcpcd on the eth0 interface... OK
+Dec 01 12:05:00 +00:00 jode-vri  Starting SSH Server... OK
+--------
+Dec 01 12:38:23 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Dec 01 12:38:23 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Dec 01 12:38:23 +00:00 (none)  Bringing up the loopback interface... OK
+Dec 01 12:38:23 +00:00 (none)  Setting hostname to jode-vri... OK
+Dec 01 12:38:23 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Dec 01 12:21:39 +00:00 jode-vri  Activating all swap files/partitions... OK
+Dec 01 12:21:39 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Dec 01 12:21:39 +00:00 jode-vri  Checking file systems... OK
+Dec 01 12:21:39 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Dec 01 12:21:39 +00:00 jode-vri  Mounting remaining file systems... OK
+Dec 01 12:21:39 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Dec 01 12:21:39 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Dec 01 12:21:40 +00:00 jode-vri  Setting up Linux console... OK
+Dec 01 12:21:40 +00:00 jode-vri  Starting system log daemon... OK
+Dec 01 12:21:40 +00:00 jode-vri  Starting kernel log daemon... OK
+Dec 01 12:21:40 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Dec 01 12:21:40 +00:00 jode-vri  Starting dhcpcd on the eth0 interface... OK
+Dec 01 12:21:40 +00:00 jode-vri  Starting SSH Server... OK
+--------
+Dec 01 13:34:14 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Dec 01 13:34:25 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Dec 01 13:34:27 +00:00 (none)  Bringing up the loopback interface... OK
+Dec 01 13:34:27 +00:00 (none)  Setting hostname to jode-vri... OK
+Dec 01 13:34:28 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Dec 01 13:34:51 +00:00 jode-vri  Activating all swap files/partitions... OK
+Dec 01 13:35:07 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Dec 01 13:35:07 +00:00 jode-vri  Checking file systems...Dec 01 13:35:13 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Dec 01 13:35:14 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Dec 01 13:35:20 +00:00 jode-vri  Mounting remaining file systems... OK
+Dec 01 13:35:20 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Dec 01 13:35:32 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Dec 01 13:35:36 +00:00 jode-vri  Setting up Linux console... OK
+Dec 01 13:36:14 +00:00 jode-vri  Starting system log daemon... OK
+Dec 01 13:36:15 +00:00 jode-vri  Starting kernel log daemon... OK
+Dec 01 13:36:23 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Dec 01 13:36:28 +00:00 jode-vri  Starting dhcpcd on the eth0 interface... OK
+Dec 01 13:36:31 +00:00 jode-vri  Starting SSH Server... OK
+--------
+Dec 01 13:38:20 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Dec 01 13:38:20 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Dec 01 13:38:20 +00:00 (none)  Bringing up the loopback interface... OK
+Dec 01 13:38:20 +00:00 (none)  Setting hostname to jode-vri... OK
+Dec 01 13:38:20 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Dec 01 13:38:13 +00:00 jode-vri  Activating all swap files/partitions... OK
+Dec 01 13:38:13 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Dec 01 13:38:13 +00:00 jode-vri  Checking file systems...Dec 01 13:38:13 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Dec 01 13:38:13 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Dec 01 13:38:13 +00:00 jode-vri  Mounting remaining file systems... OK
+Dec 01 13:38:13 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Dec 01 13:38:13 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Dec 01 13:38:14 +00:00 jode-vri  Setting up Linux console... OK
+Dec 01 13:38:14 +00:00 jode-vri  Starting system log daemon... OK
+Dec 01 13:38:14 +00:00 jode-vri  Starting kernel log daemon... OK
+Dec 01 13:38:14 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Dec 01 13:38:14 +00:00 jode-vri  Starting dhcpcd on the eth0 interface... OK
+Dec 01 13:38:14 +00:00 jode-vri  Starting SSH Server... OK
+--------
+Dec 01 13:53:55 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Dec 01 13:53:55 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Dec 01 13:53:55 +00:00 (none)  Bringing up the loopback interface... OK
+Dec 01 13:53:55 +00:00 (none)  Setting hostname to jode-vri... OK
+Dec 01 13:53:55 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Dec 01 13:53:50 +00:00 jode-vri  Activating all swap files/partitions... OK
+Dec 01 13:53:50 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Dec 01 13:53:51 +00:00 jode-vri  Checking file systems...Dec 01 13:53:51 +00:00 jode-vri  
+WARNING:
+
+File system errors were found and have been corrected.
+      You may want to double-check that everything was fixed properly. WARN
+Dec 01 13:53:51 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Dec 01 13:53:51 +00:00 jode-vri  Mounting remaining file systems... OK
+Dec 01 13:53:51 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Dec 01 13:53:51 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Dec 01 13:53:52 +00:00 jode-vri  Setting up Linux console... OK
+Dec 01 13:53:52 +00:00 jode-vri  Starting system log daemon... OK
+Dec 01 13:53:52 +00:00 jode-vri  Starting kernel log daemon... OK
+Dec 01 13:53:52 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Dec 01 13:53:52 +00:00 jode-vri  Starting dhcpcd on the eth0 interface... OK
+Dec 01 13:53:52 +00:00 jode-vri  Starting SSH Server... OK
+--------
+Dec 01 15:01:41 +00:00 (none)  Mounting virtual file systems: /run /proc /sys /dev/shm /sys/fs/cgroup OK
+Dec 01 15:01:41 +00:00 (none)  Create symlinks in /dev targeting /proc: /dev/stdin /dev/stdout /dev/stderr /dev/fd /dev/core OK
+Dec 01 15:01:41 +00:00 (none)  Bringing up the loopback interface... OK
+Dec 01 15:01:41 +00:00 (none)  Setting hostname to jode-vri... OK
+Dec 01 15:01:41 +00:00 jode-vri  Populating /dev with device nodes...  OK
+Dec 01 14:27:43 +00:00 jode-vri  Activating all swap files/partitions... OK
+Dec 01 14:27:43 +00:00 jode-vri  Mounting root file system in read-only mode...  OK
+Dec 01 14:27:43 +00:00 jode-vri  Checking file systems... OK
+Dec 01 14:27:44 +00:00 jode-vri  Remounting root file system in read-write mode... OK
+Dec 01 14:27:44 +00:00 jode-vri  Mounting remaining file systems... OK
+Dec 01 14:27:44 +00:00 jode-vri  Cleaning file systems: /tmp OK
+Dec 01 14:27:44 +00:00 jode-vri  Retrying failed uevents, if any... OK
+Dec 01 14:27:45 +00:00 jode-vri  Setting up Linux console... OK
+Dec 01 14:27:45 +00:00 jode-vri  Starting system log daemon... OK
+Dec 01 14:27:45 +00:00 jode-vri  Starting kernel log daemon... OK
+Dec 01 14:27:45 +00:00 jode-vri  Bringing up the eth0 interface... OK
+Dec 01 14:27:45 +00:00 jode-vri  Starting dhcpcd on the eth0 interface... OK
+Dec 01 14:27:45 +00:00 jode-vri  Starting SSH Server... OK
+--------

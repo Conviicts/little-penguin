@@ -1,0 +1,432 @@
+[Fri Dec  1 14:27:40 2023] Linux version 6.7.0-rc3-00134-g994d5c58e50e (root@jode-vri) (gcc (GCC) 13.2.0, GNU ld (GNU Binutils) 2.41) #1 SMP PREEMPT_DYNAMIC Fri Dec  1 12:16:46 UTC 2023
+[Fri Dec  1 14:27:40 2023] Command line: BOOT_IMAGE=/vmlinuz root=/dev/sda4 ro
+[Fri Dec  1 14:27:40 2023] BIOS-provided physical RAM map:
+[Fri Dec  1 14:27:40 2023] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+[Fri Dec  1 14:27:40 2023] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+[Fri Dec  1 14:27:40 2023] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+[Fri Dec  1 14:27:40 2023] BIOS-e820: [mem 0x0000000000100000-0x00000000dffeffff] usable
+[Fri Dec  1 14:27:40 2023] BIOS-e820: [mem 0x00000000dfff0000-0x00000000dfffffff] ACPI data
+[Fri Dec  1 14:27:40 2023] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[Fri Dec  1 14:27:40 2023] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[Fri Dec  1 14:27:40 2023] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+[Fri Dec  1 14:27:40 2023] BIOS-e820: [mem 0x0000000100000000-0x000000011fffffff] usable
+[Fri Dec  1 14:27:40 2023] NX (Execute Disable) protection: active
+[Fri Dec  1 14:27:40 2023] APIC: Static calls initialized
+[Fri Dec  1 14:27:40 2023] SMBIOS 2.5 present.
+[Fri Dec  1 14:27:40 2023] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[Fri Dec  1 14:27:40 2023] Hypervisor detected: KVM
+[Fri Dec  1 14:27:40 2023] kvm-clock: Using msrs 4b564d01 and 4b564d00
+[Fri Dec  1 14:27:40 2023] kvm-clock: using sched offset of 2037782324633 cycles
+[Fri Dec  1 14:27:40 2023] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+[Fri Dec  1 14:27:40 2023] tsc: Detected 3686.398 MHz processor
+[Fri Dec  1 14:27:40 2023] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[Fri Dec  1 14:27:40 2023] e820: remove [mem 0x000a0000-0x000fffff] usable
+[Fri Dec  1 14:27:40 2023] last_pfn = 0x120000 max_arch_pfn = 0x400000000
+[Fri Dec  1 14:27:40 2023] MTRRs disabled by BIOS
+[Fri Dec  1 14:27:40 2023] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[Fri Dec  1 14:27:40 2023] last_pfn = 0xdfff0 max_arch_pfn = 0x400000000
+[Fri Dec  1 14:27:40 2023] found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
+[Fri Dec  1 14:27:40 2023] Incomplete global flushes, disabling PCID
+[Fri Dec  1 14:27:40 2023] ACPI: Early table checksum verification disabled
+[Fri Dec  1 14:27:40 2023] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+[Fri Dec  1 14:27:40 2023] ACPI: XSDT 0x00000000DFFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+[Fri Dec  1 14:27:40 2023] ACPI: FACP 0x00000000DFFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+[Fri Dec  1 14:27:40 2023] ACPI: DSDT 0x00000000DFFF0620 002353 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+[Fri Dec  1 14:27:40 2023] ACPI: FACS 0x00000000DFFF0200 000040
+[Fri Dec  1 14:27:40 2023] ACPI: FACS 0x00000000DFFF0200 000040
+[Fri Dec  1 14:27:40 2023] ACPI: APIC 0x00000000DFFF0240 00006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+[Fri Dec  1 14:27:40 2023] ACPI: SSDT 0x00000000DFFF02B0 00036C (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+[Fri Dec  1 14:27:40 2023] ACPI: Reserving FACP table memory at [mem 0xdfff00f0-0xdfff01e3]
+[Fri Dec  1 14:27:40 2023] ACPI: Reserving DSDT table memory at [mem 0xdfff0620-0xdfff2972]
+[Fri Dec  1 14:27:40 2023] ACPI: Reserving FACS table memory at [mem 0xdfff0200-0xdfff023f]
+[Fri Dec  1 14:27:40 2023] ACPI: Reserving FACS table memory at [mem 0xdfff0200-0xdfff023f]
+[Fri Dec  1 14:27:40 2023] ACPI: Reserving APIC table memory at [mem 0xdfff0240-0xdfff02ab]
+[Fri Dec  1 14:27:40 2023] ACPI: Reserving SSDT table memory at [mem 0xdfff02b0-0xdfff061b]
+[Fri Dec  1 14:27:40 2023] No NUMA configuration found
+[Fri Dec  1 14:27:40 2023] Faking a node at [mem 0x0000000000000000-0x000000011fffffff]
+[Fri Dec  1 14:27:40 2023] NODE_DATA(0) allocated [mem 0x11fff8000-0x11fffbfff]
+[Fri Dec  1 14:27:40 2023] Zone ranges:
+[Fri Dec  1 14:27:40 2023]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[Fri Dec  1 14:27:40 2023]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[Fri Dec  1 14:27:40 2023]   Normal   [mem 0x0000000100000000-0x000000011fffffff]
+[Fri Dec  1 14:27:40 2023] Movable zone start for each node
+[Fri Dec  1 14:27:40 2023] Early memory node ranges
+[Fri Dec  1 14:27:40 2023]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+[Fri Dec  1 14:27:40 2023]   node   0: [mem 0x0000000000100000-0x00000000dffeffff]
+[Fri Dec  1 14:27:40 2023]   node   0: [mem 0x0000000100000000-0x000000011fffffff]
+[Fri Dec  1 14:27:40 2023] Initmem setup node 0 [mem 0x0000000000001000-0x000000011fffffff]
+[Fri Dec  1 14:27:40 2023] On node 0, zone DMA: 1 pages in unavailable ranges
+[Fri Dec  1 14:27:40 2023] On node 0, zone DMA: 97 pages in unavailable ranges
+[Fri Dec  1 14:27:40 2023] On node 0, zone Normal: 16 pages in unavailable ranges
+[Fri Dec  1 14:27:40 2023] ACPI: PM-Timer IO Port: 0x4008
+[Fri Dec  1 14:27:40 2023] IOAPIC[0]: apic_id 4, version 32, address 0xfec00000, GSI 0-23
+[Fri Dec  1 14:27:40 2023] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[Fri Dec  1 14:27:40 2023] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+[Fri Dec  1 14:27:40 2023] ACPI: Using ACPI (MADT) for SMP configuration information
+[Fri Dec  1 14:27:40 2023] smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+[Fri Dec  1 14:27:40 2023] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[Fri Dec  1 14:27:40 2023] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+[Fri Dec  1 14:27:40 2023] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+[Fri Dec  1 14:27:40 2023] PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+[Fri Dec  1 14:27:40 2023] PM: hibernation: Registered nosave memory: [mem 0xdfff0000-0xdfffffff]
+[Fri Dec  1 14:27:40 2023] PM: hibernation: Registered nosave memory: [mem 0xe0000000-0xfebfffff]
+[Fri Dec  1 14:27:40 2023] PM: hibernation: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+[Fri Dec  1 14:27:40 2023] PM: hibernation: Registered nosave memory: [mem 0xfec01000-0xfedfffff]
+[Fri Dec  1 14:27:40 2023] PM: hibernation: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+[Fri Dec  1 14:27:40 2023] PM: hibernation: Registered nosave memory: [mem 0xfee01000-0xfffbffff]
+[Fri Dec  1 14:27:40 2023] PM: hibernation: Registered nosave memory: [mem 0xfffc0000-0xffffffff]
+[Fri Dec  1 14:27:40 2023] [mem 0xe0000000-0xfebfffff] available for PCI devices
+[Fri Dec  1 14:27:40 2023] Booting paravirtualized kernel on KVM
+[Fri Dec  1 14:27:40 2023] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+[Fri Dec  1 14:27:40 2023] setup_percpu: NR_CPUS:64 nr_cpumask_bits:4 nr_cpu_ids:4 nr_node_ids:1
+[Fri Dec  1 14:27:40 2023] percpu: Embedded 54 pages/cpu s183272 r8192 d29720 u524288
+[Fri Dec  1 14:27:40 2023] pcpu-alloc: s183272 r8192 d29720 u524288 alloc=1*2097152
+[Fri Dec  1 14:27:40 2023] pcpu-alloc: [0] 0 1 2 3 
+[Fri Dec  1 14:27:40 2023] Kernel command line: BOOT_IMAGE=/vmlinuz root=/dev/sda4 ro
+[Fri Dec  1 14:27:40 2023] Unknown kernel command line parameters "BOOT_IMAGE=/vmlinuz", will be passed to user space.
+[Fri Dec  1 14:27:40 2023] random: crng init done
+[Fri Dec  1 14:27:40 2023] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+[Fri Dec  1 14:27:40 2023] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[Fri Dec  1 14:27:40 2023] Fallback order for Node 0: 0 
+[Fri Dec  1 14:27:40 2023] Built 1 zonelists, mobility grouping on.  Total pages: 1031920
+[Fri Dec  1 14:27:40 2023] Policy zone: Normal
+[Fri Dec  1 14:27:40 2023] mem auto-init: stack:all(zero), heap alloc:off, heap free:off
+[Fri Dec  1 14:27:40 2023] software IO TLB: area num 4.
+[Fri Dec  1 14:27:40 2023] Memory: 4015024K/4193848K available (18432K kernel code, 2760K rwdata, 6612K rodata, 2672K init, 1392K bss, 178564K reserved, 0K cma-reserved)
+[Fri Dec  1 14:27:40 2023] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[Fri Dec  1 14:27:40 2023] Dynamic Preempt: voluntary
+[Fri Dec  1 14:27:40 2023] rcu: Preemptible hierarchical RCU implementation.
+[Fri Dec  1 14:27:40 2023] rcu: 	RCU event tracing is enabled.
+[Fri Dec  1 14:27:40 2023] rcu: 	RCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=4.
+[Fri Dec  1 14:27:40 2023] 	Trampoline variant of Tasks RCU enabled.
+[Fri Dec  1 14:27:40 2023] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+[Fri Dec  1 14:27:40 2023] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[Fri Dec  1 14:27:40 2023] NR_IRQS: 4352, nr_irqs: 456, preallocated irqs: 16
+[Fri Dec  1 14:27:40 2023] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[Fri Dec  1 14:27:40 2023] Console: colour VGA+ 80x25
+[Fri Dec  1 14:27:40 2023] printk: legacy console [tty0] enabled
+[Fri Dec  1 14:27:40 2023] ACPI: Core revision 20230628
+[Fri Dec  1 14:27:40 2023] APIC: Switch to symmetric I/O mode setup
+[Fri Dec  1 14:27:40 2023] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[Fri Dec  1 14:27:40 2023] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x6a464827a2b, max_idle_ns: 881590616020 ns
+[Fri Dec  1 14:27:40 2023] Calibrating delay loop (skipped) preset value.. 7372.79 BogoMIPS (lpj=3686398)
+[Fri Dec  1 14:27:40 2023] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+[Fri Dec  1 14:27:40 2023] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+[Fri Dec  1 14:27:40 2023] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[Fri Dec  1 14:27:40 2023] Spectre V2 : Mitigation: Enhanced / Automatic IBRS
+[Fri Dec  1 14:27:40 2023] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[Fri Dec  1 14:27:40 2023] Spectre V2 : Spectre v2 / PBRSB-eIBRS: Retire a single CALL on VMEXIT
+[Fri Dec  1 14:27:40 2023] RETBleed: Mitigation: Enhanced IBRS
+[Fri Dec  1 14:27:40 2023] Speculative Store Bypass: Vulnerable
+[Fri Dec  1 14:27:40 2023] x86/fpu: x87 FPU will use FXSAVE
+[Fri Dec  1 14:27:40 2023] Freeing SMP alternatives memory: 48K
+[Fri Dec  1 14:27:40 2023] pid_max: default: 32768 minimum: 301
+[Fri Dec  1 14:27:40 2023] LSM: initializing lsm=capability,selinux,integrity
+[Fri Dec  1 14:27:40 2023] SELinux:  Initializing.
+[Fri Dec  1 14:27:40 2023] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+[Fri Dec  1 14:27:40 2023] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+[Fri Dec  1 14:27:40 2023] smpboot: CPU0: 12th Gen Intel(R) Core(TM) i5-12600K (family: 0x6, model: 0x97, stepping: 0x2)
+[Fri Dec  1 14:27:40 2023] RCU Tasks: Setting shift to 2 and lim to 1 rcu_task_cb_adjust=1.
+[Fri Dec  1 14:27:40 2023] Performance Events: unsupported p6 CPU model 151 no PMU driver, software events only.
+[Fri Dec  1 14:27:40 2023] signal: max sigframe size: 1440
+[Fri Dec  1 14:27:40 2023] rcu: Hierarchical SRCU implementation.
+[Fri Dec  1 14:27:40 2023] rcu: 	Max phase no-delay instances is 400.
+[Fri Dec  1 14:27:40 2023] smp: Bringing up secondary CPUs ...
+[Fri Dec  1 14:27:40 2023] smpboot: x86: Booting SMP configuration:
+[Fri Dec  1 14:27:40 2023] .... node  #0, CPUs:      #1 #2 #3
+[Fri Dec  1 14:27:40 2023] TSC synchronization [CPU#0 -> CPU#1]:
+[Fri Dec  1 14:27:40 2023] Measured 116327 cycles TSC warp between CPUs, turning off TSC clock.
+[Fri Dec  1 14:27:40 2023] tsc: Marking TSC unstable due to check_tsc_sync_source failed
+[Fri Dec  1 14:27:40 2023] smp: Brought up 1 node, 4 CPUs
+[Fri Dec  1 14:27:40 2023] smpboot: Max logical packages: 1
+[Fri Dec  1 14:27:40 2023] smpboot: Total of 4 processors activated (29491.18 BogoMIPS)
+[Fri Dec  1 14:27:40 2023] devtmpfs: initialized
+[Fri Dec  1 14:27:40 2023] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[Fri Dec  1 14:27:40 2023] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+[Fri Dec  1 14:27:40 2023] PM: RTC time: 14:27:40, date: 2023-12-01
+[Fri Dec  1 14:27:40 2023] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[Fri Dec  1 14:27:40 2023] audit: initializing netlink subsys (disabled)
+[Fri Dec  1 14:27:40 2023] audit: type=2000 audit(1701442899.613:1): state=initialized audit_enabled=0 res=1
+[Fri Dec  1 14:27:40 2023] thermal_sys: Registered thermal governor 'step_wise'
+[Fri Dec  1 14:27:40 2023] thermal_sys: Registered thermal governor 'user_space'
+[Fri Dec  1 14:27:40 2023] cpuidle: using governor menu
+[Fri Dec  1 14:27:40 2023] PCI: Using configuration type 1 for base access
+[Fri Dec  1 14:27:40 2023] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+[Fri Dec  1 14:27:40 2023] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[Fri Dec  1 14:27:40 2023] HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+[Fri Dec  1 14:27:40 2023] ACPI: Added _OSI(Module Device)
+[Fri Dec  1 14:27:40 2023] ACPI: Added _OSI(Processor Device)
+[Fri Dec  1 14:27:40 2023] ACPI: Added _OSI(3.0 _SCP Extensions)
+[Fri Dec  1 14:27:40 2023] ACPI: Added _OSI(Processor Aggregator Device)
+[Fri Dec  1 14:27:40 2023] ACPI: 2 ACPI AML tables successfully acquired and loaded
+[Fri Dec  1 14:27:40 2023] ACPI: _OSC evaluation for CPUs failed, trying _PDC
+[Fri Dec  1 14:27:40 2023] ACPI: Interpreter enabled
+[Fri Dec  1 14:27:40 2023] ACPI: PM: (supports S0 S5)
+[Fri Dec  1 14:27:40 2023] ACPI: Using IOAPIC for interrupt routing
+[Fri Dec  1 14:27:40 2023] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[Fri Dec  1 14:27:40 2023] PCI: Using E820 reservations for host bridge windows
+[Fri Dec  1 14:27:40 2023] ACPI: Enabled 2 GPEs in block 00 to 07
+[Fri Dec  1 14:27:40 2023] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[Fri Dec  1 14:27:40 2023] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI HPX-Type3]
+[Fri Dec  1 14:27:40 2023] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+[Fri Dec  1 14:27:40 2023] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+[Fri Dec  1 14:27:40 2023] PCI host bridge to bus 0000:00
+[Fri Dec  1 14:27:40 2023] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[Fri Dec  1 14:27:40 2023] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[Fri Dec  1 14:27:40 2023] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+[Fri Dec  1 14:27:40 2023] pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfdffffff window]
+[Fri Dec  1 14:27:40 2023] pci_bus 0000:00: root bus resource [bus 00-ff]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+[Fri Dec  1 14:27:40 2023] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+[Fri Dec  1 14:27:40 2023] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+[Fri Dec  1 14:27:40 2023] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+[Fri Dec  1 14:27:40 2023] pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:02.0: reg 0x14: [mem 0xe0000000-0xe1ffffff pref]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:02.0: reg 0x18: [mem 0xf0000000-0xf01fffff]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+[Fri Dec  1 14:27:40 2023] pci 0000:00:03.0: reg 0x10: [mem 0xf0200000-0xf021ffff]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+[Fri Dec  1 14:27:40 2023] pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+[Fri Dec  1 14:27:40 2023] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+[Fri Dec  1 14:27:40 2023] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+[Fri Dec  1 14:27:40 2023] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+[Fri Dec  1 14:27:40 2023] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+[Fri Dec  1 14:27:40 2023] pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320
+[Fri Dec  1 14:27:40 2023] pci 0000:00:0b.0: reg 0x10: [mem 0xf0805000-0xf0805fff]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+[Fri Dec  1 14:27:40 2023] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+[Fri Dec  1 14:27:40 2023] ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+[Fri Dec  1 14:27:40 2023] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+[Fri Dec  1 14:27:40 2023] ACPI: PCI: Interrupt link LNKC configured for IRQ 9
+[Fri Dec  1 14:27:40 2023] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+[Fri Dec  1 14:27:40 2023] iommu: Default domain type: Translated
+[Fri Dec  1 14:27:40 2023] iommu: DMA domain TLB invalidation policy: lazy mode
+[Fri Dec  1 14:27:40 2023] SCSI subsystem initialized
+[Fri Dec  1 14:27:40 2023] libata version 3.00 loaded.
+[Fri Dec  1 14:27:40 2023] ACPI: bus type USB registered
+[Fri Dec  1 14:27:40 2023] usbcore: registered new interface driver usbfs
+[Fri Dec  1 14:27:40 2023] usbcore: registered new interface driver hub
+[Fri Dec  1 14:27:40 2023] usbcore: registered new device driver usb
+[Fri Dec  1 14:27:40 2023] pps_core: LinuxPPS API ver. 1 registered
+[Fri Dec  1 14:27:40 2023] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[Fri Dec  1 14:27:40 2023] PTP clock support registered
+[Fri Dec  1 14:27:40 2023] Advanced Linux Sound Architecture Driver Initialized.
+[Fri Dec  1 14:27:40 2023] NetLabel: Initializing
+[Fri Dec  1 14:27:40 2023] NetLabel:  domain hash size = 128
+[Fri Dec  1 14:27:40 2023] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[Fri Dec  1 14:27:40 2023] NetLabel:  unlabeled traffic allowed by default
+[Fri Dec  1 14:27:40 2023] PCI: Using ACPI for IRQ routing
+[Fri Dec  1 14:27:40 2023] PCI: pci_cache_line_size set to 64 bytes
+[Fri Dec  1 14:27:40 2023] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+[Fri Dec  1 14:27:40 2023] e820: reserve RAM buffer [mem 0xdfff0000-0xdfffffff]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+[Fri Dec  1 14:27:40 2023] pci 0000:00:02.0: vgaarb: bridge control possible
+[Fri Dec  1 14:27:40 2023] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[Fri Dec  1 14:27:40 2023] vgaarb: loaded
+[Fri Dec  1 14:27:40 2023] clocksource: Switched to clocksource kvm-clock
+[Fri Dec  1 14:27:40 2023] VFS: Disk quotas dquot_6.6.0
+[Fri Dec  1 14:27:40 2023] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[Fri Dec  1 14:27:40 2023] pnp: PnP ACPI init
+[Fri Dec  1 14:27:40 2023] pnp: PnP ACPI: found 2 devices
+[Fri Dec  1 14:27:40 2023] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[Fri Dec  1 14:27:40 2023] NET: Registered PF_INET protocol family
+[Fri Dec  1 14:27:40 2023] IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[Fri Dec  1 14:27:40 2023] tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+[Fri Dec  1 14:27:40 2023] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[Fri Dec  1 14:27:40 2023] TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[Fri Dec  1 14:27:40 2023] TCP bind hash table entries: 32768 (order: 8, 1048576 bytes, linear)
+[Fri Dec  1 14:27:40 2023] TCP: Hash tables configured (established 32768 bind 32768)
+[Fri Dec  1 14:27:40 2023] UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)
+[Fri Dec  1 14:27:40 2023] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes, linear)
+[Fri Dec  1 14:27:40 2023] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[Fri Dec  1 14:27:40 2023] RPC: Registered named UNIX socket transport module.
+[Fri Dec  1 14:27:40 2023] RPC: Registered udp transport module.
+[Fri Dec  1 14:27:40 2023] RPC: Registered tcp transport module.
+[Fri Dec  1 14:27:40 2023] RPC: Registered tcp-with-tls transport module.
+[Fri Dec  1 14:27:40 2023] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[Fri Dec  1 14:27:40 2023] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[Fri Dec  1 14:27:40 2023] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[Fri Dec  1 14:27:40 2023] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+[Fri Dec  1 14:27:40 2023] pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfdffffff window]
+[Fri Dec  1 14:27:40 2023] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+[Fri Dec  1 14:27:40 2023] PCI: CLS 0 bytes, default 64
+[Fri Dec  1 14:27:40 2023] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[Fri Dec  1 14:27:40 2023] software IO TLB: mapped [mem 0x00000000dbff0000-0x00000000dfff0000] (64MB)
+[Fri Dec  1 14:27:40 2023] RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+[Fri Dec  1 14:27:40 2023] platform rtc_cmos: registered platform RTC device (no PNP device found)
+[Fri Dec  1 14:27:40 2023] Initialise system trusted keyrings
+[Fri Dec  1 14:27:40 2023] workingset: timestamp_bits=40 max_order=20 bucket_order=0
+[Fri Dec  1 14:27:40 2023] NFS: Registering the id_resolver key type
+[Fri Dec  1 14:27:40 2023] Key type id_resolver registered
+[Fri Dec  1 14:27:40 2023] Key type id_legacy registered
+[Fri Dec  1 14:27:40 2023] 9p: Installing v9fs 9p2000 file system support
+[Fri Dec  1 14:27:40 2023] Key type asymmetric registered
+[Fri Dec  1 14:27:40 2023] Asymmetric key parser 'x509' registered
+[Fri Dec  1 14:27:40 2023] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+[Fri Dec  1 14:27:40 2023] io scheduler mq-deadline registered
+[Fri Dec  1 14:27:40 2023] io scheduler kyber registered
+[Fri Dec  1 14:27:40 2023] ACPI: AC: AC Adapter [AC] (on-line)
+[Fri Dec  1 14:27:40 2023] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[Fri Dec  1 14:27:40 2023] ACPI: button: Power Button [PWRF]
+[Fri Dec  1 14:27:40 2023] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+[Fri Dec  1 14:27:40 2023] ACPI: button: Sleep Button [SLPF]
+[Fri Dec  1 14:27:40 2023] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[Fri Dec  1 14:27:40 2023] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input2
+[Fri Dec  1 14:27:40 2023] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[Fri Dec  1 14:27:40 2023] Non-volatile memory driver v1.3
+[Fri Dec  1 14:27:40 2023] Linux agpgart interface v0.103
+[Fri Dec  1 14:27:40 2023] ACPI: bus type drm_connector registered
+[Fri Dec  1 14:27:40 2023] loop: module loaded
+[Fri Dec  1 14:27:40 2023] ahci 0000:00:0d.0: version 3.0
+[Fri Dec  1 14:27:40 2023] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+[Fri Dec  1 14:27:40 2023] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+[Fri Dec  1 14:27:40 2023] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+[Fri Dec  1 14:27:40 2023] scsi host0: ahci
+[Fri Dec  1 14:27:40 2023] ata1: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21 lpm-pol 0
+[Fri Dec  1 14:27:40 2023] ata_piix 0000:00:01.1: version 2.13
+[Fri Dec  1 14:27:40 2023] scsi host1: ata_piix
+[Fri Dec  1 14:27:40 2023] scsi host2: ata_piix
+[Fri Dec  1 14:27:40 2023] ata2: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14 lpm-pol 0
+[Fri Dec  1 14:27:40 2023] ata3: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15 lpm-pol 0
+[Fri Dec  1 14:27:40 2023] e100: Intel(R) PRO/100 Network Driver
+[Fri Dec  1 14:27:40 2023] e100: Copyright(c) 1999-2006 Intel Corporation
+[Fri Dec  1 14:27:40 2023] e1000: Intel(R) PRO/1000 Network Driver
+[Fri Dec  1 14:27:40 2023] e1000: Copyright (c) 1999-2006 Intel Corporation.
+[Fri Dec  1 14:27:41 2023] ata3.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+[Fri Dec  1 14:27:41 2023] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[Fri Dec  1 14:27:41 2023] ata1.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+[Fri Dec  1 14:27:41 2023] ata1.00: 104857600 sectors, multi 128: LBA48 NCQ (depth 32)
+[Fri Dec  1 14:27:41 2023] ata1.00: configured for UDMA/133
+[Fri Dec  1 14:27:41 2023] scsi 0:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+[Fri Dec  1 14:27:41 2023] scsi 0:0:0:0: Attached scsi generic sg0 type 0
+[Fri Dec  1 14:27:41 2023] sd 0:0:0:0: [sda] 104857600 512-byte logical blocks: (53.7 GB/50.0 GiB)
+[Fri Dec  1 14:27:41 2023] sd 0:0:0:0: [sda] Write Protect is off
+[Fri Dec  1 14:27:41 2023] scsi 2:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+[Fri Dec  1 14:27:41 2023] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[Fri Dec  1 14:27:41 2023] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[Fri Dec  1 14:27:41 2023] sd 0:0:0:0: [sda] Preferred minimum I/O size 512 bytes
+[Fri Dec  1 14:27:41 2023]  sda: sda1 sda2 sda3 sda4
+[Fri Dec  1 14:27:41 2023] sd 0:0:0:0: [sda] Attached SCSI disk
+[Fri Dec  1 14:27:41 2023] sr 2:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+[Fri Dec  1 14:27:41 2023] cdrom: Uniform CD-ROM driver Revision: 3.20
+[Fri Dec  1 14:27:41 2023] sr 2:0:0:0: Attached scsi CD-ROM sr0
+[Fri Dec  1 14:27:41 2023] sr 2:0:0:0: Attached scsi generic sg1 type 5
+[Fri Dec  1 14:27:41 2023] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:62:cd:63
+[Fri Dec  1 14:27:41 2023] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+[Fri Dec  1 14:27:41 2023] e1000e: Intel(R) PRO/1000 Network Driver
+[Fri Dec  1 14:27:41 2023] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+[Fri Dec  1 14:27:41 2023] sky2: driver version 1.30
+[Fri Dec  1 14:27:41 2023] ohci-pci 0000:00:06.0: OHCI PCI host controller
+[Fri Dec  1 14:27:41 2023] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+[Fri Dec  1 14:27:41 2023] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+[Fri Dec  1 14:27:41 2023] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.07
+[Fri Dec  1 14:27:41 2023] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Fri Dec  1 14:27:41 2023] usb usb1: Product: OHCI PCI host controller
+[Fri Dec  1 14:27:41 2023] usb usb1: Manufacturer: Linux 6.7.0-rc3-00134-g994d5c58e50e ohci_hcd
+[Fri Dec  1 14:27:41 2023] usb usb1: SerialNumber: 0000:00:06.0
+[Fri Dec  1 14:27:41 2023] hub 1-0:1.0: USB hub found
+[Fri Dec  1 14:27:41 2023] hub 1-0:1.0: 12 ports detected
+[Fri Dec  1 14:27:41 2023] usbcore: registered new interface driver usblp
+[Fri Dec  1 14:27:41 2023] ehci-pci 0000:00:0b.0: EHCI Host Controller
+[Fri Dec  1 14:27:41 2023] usbcore: registered new interface driver usb-storage
+[Fri Dec  1 14:27:41 2023] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+[Fri Dec  1 14:27:41 2023] ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 2
+[Fri Dec  1 14:27:41 2023] serio: i8042 KBD port at 0x60,0x64 irq 1
+[Fri Dec  1 14:27:41 2023] ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0805000
+[Fri Dec  1 14:27:41 2023] serio: i8042 AUX port at 0x60,0x64 irq 12
+[Fri Dec  1 14:27:41 2023] ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+[Fri Dec  1 14:27:41 2023] rtc_cmos rtc_cmos: registered as rtc0
+[Fri Dec  1 14:27:41 2023] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.07
+[Fri Dec  1 14:27:41 2023] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+[Fri Dec  1 14:27:41 2023] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Fri Dec  1 14:27:41 2023] fail to initialize ptp_kvm
+[Fri Dec  1 14:27:41 2023] usb usb2: Product: EHCI Host Controller
+[Fri Dec  1 14:27:41 2023] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+[Fri Dec  1 14:27:41 2023] usb usb2: Manufacturer: Linux 6.7.0-rc3-00134-g994d5c58e50e ehci_hcd
+[Fri Dec  1 14:27:41 2023] usb usb2: SerialNumber: 0000:00:0b.0
+[Fri Dec  1 14:27:41 2023] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+[Fri Dec  1 14:27:41 2023] hub 2-0:1.0: USB hub found
+[Fri Dec  1 14:27:41 2023] intel_pstate: CPU model not supported
+[Fri Dec  1 14:27:41 2023] hid: raw HID events driver (C) Jiri Kosina
+[Fri Dec  1 14:27:41 2023] usbcore: registered new interface driver usbhid
+[Fri Dec  1 14:27:41 2023] usbhid: USB HID core driver
+[Fri Dec  1 14:27:41 2023] Initializing XFRM netlink socket
+[Fri Dec  1 14:27:41 2023] hub 2-0:1.0: 12 ports detected
+[Fri Dec  1 14:27:41 2023] NET: Registered PF_INET6 protocol family
+[Fri Dec  1 14:27:41 2023] Segment Routing with IPv6
+[Fri Dec  1 14:27:41 2023] In-situ OAM (IOAM) with IPv6
+[Fri Dec  1 14:27:41 2023] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[Fri Dec  1 14:27:41 2023] NET: Registered PF_PACKET protocol family
+[Fri Dec  1 14:27:41 2023] 9pnet: Installing 9P2000 support
+[Fri Dec  1 14:27:41 2023] Key type dns_resolver registered
+[Fri Dec  1 14:27:41 2023] IPI shorthand broadcast: enabled
+[Fri Dec  1 14:27:41 2023] sched_clock: Marking stable (1628304993, 177900893)->(1912412751, -106206865)
+[Fri Dec  1 14:27:41 2023] registered taskstats version 1
+[Fri Dec  1 14:27:41 2023] Loading compiled-in X.509 certificates
+[Fri Dec  1 14:27:41 2023] PM:   Magic number: 3:522:484
+[Fri Dec  1 14:27:41 2023] printk: legacy console [netcon0] enabled
+[Fri Dec  1 14:27:41 2023] netconsole: network logging started
+[Fri Dec  1 14:27:41 2023] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Fri Dec  1 14:27:41 2023] kworker/u9:2 (74) used greatest stack depth: 14512 bytes left
+[Fri Dec  1 14:27:41 2023] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[Fri Dec  1 14:27:41 2023] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[Fri Dec  1 14:27:41 2023] cfg80211: failed to load regulatory.db
+[Fri Dec  1 14:27:41 2023] ALSA device list:
+[Fri Dec  1 14:27:41 2023]   No soundcards found.
+[Fri Dec  1 14:27:42 2023] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+[Fri Dec  1 14:27:42 2023] md: Waiting for all devices to be available before autodetect
+[Fri Dec  1 14:27:42 2023] md: If you don't use raid, use raid=noautodetect
+[Fri Dec  1 14:27:42 2023] md: Autodetecting RAID arrays.
+[Fri Dec  1 14:27:42 2023] md: autorun ...
+[Fri Dec  1 14:27:42 2023] md: ... autorun DONE.
+[Fri Dec  1 14:27:42 2023] EXT4-fs (sda4): mounted filesystem 8cedac84-ca6a-47e9-af75-d15d65de7388 ro with ordered data mode. Quota mode: none.
+[Fri Dec  1 14:27:42 2023] VFS: Mounted root (ext4 filesystem) readonly on device 8:4.
+[Fri Dec  1 14:27:42 2023] devtmpfs: mounted
+[Fri Dec  1 14:27:42 2023] Freeing unused kernel image (initmem) memory: 2672K
+[Fri Dec  1 14:27:42 2023] Write protecting the kernel read-only data: 26624k
+[Fri Dec  1 14:27:42 2023] Freeing unused kernel image (rodata/data gap) memory: 1580K
+[Fri Dec  1 14:27:42 2023] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[Fri Dec  1 14:27:42 2023] Run /sbin/init as init process
+[Fri Dec  1 14:27:42 2023]   with arguments:
+[Fri Dec  1 14:27:42 2023]     /sbin/init
+[Fri Dec  1 14:27:42 2023]   with environment:
+[Fri Dec  1 14:27:42 2023]     HOME=/
+[Fri Dec  1 14:27:42 2023]     TERM=linux
+[Fri Dec  1 14:27:42 2023]     BOOT_IMAGE=/vmlinuz
+[Fri Dec  1 14:27:42 2023] stty (83) used greatest stack depth: 13344 bytes left
+[Fri Dec  1 14:27:42 2023] usb 1-1: new full-speed USB device number 2 using ohci-pci
+[Fri Dec  1 14:27:42 2023] ls (86) used greatest stack depth: 12944 bytes left
+[Fri Dec  1 14:27:42 2023] ip (184) used greatest stack depth: 12768 bytes left
+[Fri Dec  1 14:27:42 2023] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+[Fri Dec  1 14:27:42 2023] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+[Fri Dec  1 14:27:42 2023] usb 1-1: Product: USB Tablet
+[Fri Dec  1 14:27:42 2023] usb 1-1: Manufacturer: VirtualBox
+[Fri Dec  1 14:27:42 2023] udevd[209]: Starting systemd-udevd version 254
+[Fri Dec  1 14:27:42 2023] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+[Fri Dec  1 14:27:42 2023] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+[Fri Dec  1 14:27:42 2023] udevd[210]: Using default interface naming scheme 'v253'.
+[Fri Dec  1 14:27:44 2023] Adding 4194300k swap on /dev/sda3.  Priority:1 extents:1 across:4194300k 
+[Fri Dec  1 14:27:44 2023] EXT4-fs (sda4): re-mounted 8cedac84-ca6a-47e9-af75-d15d65de7388 ro. Quota mode: none.
+[Fri Dec  1 14:27:44 2023] EXT4-fs (sda4): re-mounted 8cedac84-ca6a-47e9-af75-d15d65de7388 r/w. Quota mode: none.
+[Fri Dec  1 14:27:44 2023] EXT4-fs (sda2): mounting ext2 file system using the ext4 subsystem
+[Fri Dec  1 14:27:44 2023] EXT4-fs (sda2): mounted filesystem b1ee3f72-18ed-4dc1-a57f-5ff9f0986ce8 r/w without journal. Quota mode: none.
+[Fri Dec  1 14:27:45 2023] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+[Fri Dec  1 14:28:39 2023] hrtimer: interrupt took 4355082 ns

@@ -1,0 +1,2 @@
+dmesg -T > kern.log
+cat /var/log/boot.log > boot.log
